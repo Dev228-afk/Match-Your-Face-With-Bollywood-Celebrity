@@ -31,10 +31,11 @@ upload_path= 'artifacts/upload/'
 
 # Pickle format data dir
 pickle_format_data_dir= artifacts["pickle_format_data_dir"]
+img_pkl_file= artifacts["img_pkl_file_name"]
 img_pickle_file_name= os.path.join(artifacts_dir, pickle_format_data_dir)
 
-raw_local_data_dir_path= os.path.join(artifacts_dir, pickle_format_data_dir) # raw_local_data_dir_path
-pickle_file= os.path.join(raw_local_data_dir_path, img_pickle_file_name)
+pickle_file= os.path.join(img_pickle_file_name, img_pkl_file) # raw_local_data_dir_path
+# pickle_file= os.path.join(raw_local_data_dir_path, img_pickle_file_name)
 
 # Feature Path
 feature_extraction_dir= artifacts['feature_extraction_dir']
@@ -51,7 +52,7 @@ detector= MTCNN()
 model= VGGFace( model= model_name, include_top= include_top, 
                  input_shape=(224,224,3), pooling= pooling)
 # print(pickle_file)
-filenames= pickle.load(open('artifacts/pickle_format_data_dir/img_pkl_file.pkl', 'rb'))
+filenames= pickle.load(open(pickle_file, 'rb'))
 feature_list= pickle.load(open(feature_name, 'rb'))
 
 # Function For uploading image

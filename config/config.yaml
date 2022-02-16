@@ -1,6 +1,6 @@
 artifacts:
   artifacts_dir: artifacts
-  pickle_format_data_dir: pickle_format_data
+  pickle_format_data_dir: pickle_format_data_dir
   img_pkl_file_name: img_pkl_file.pkl 
   feature_extraction_dir: extracted_features
   extracted_features_name: feature_vectors.pkl 
