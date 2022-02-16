@@ -1,0 +1,15 @@
+==> 2022-02-13 19:03:57 <==
+# cmd: C:\Users\DEV\anaconda3\Scripts\conda-script.py create --prefix ./env1 python=3.8.1 -y
+# conda version: 4.11.0
++defaults/noarch::wheel-0.37.1-pyhd3eb1b0_0
++defaults/win-64::ca-certificates-2021.10.26-haa95532_4
++defaults/win-64::certifi-2021.10.8-py38haa95532_2
++defaults/win-64::openssl-1.1.1m-h2bbff1b_0
++defaults/win-64::pip-21.2.2-py38haa95532_0
++defaults/win-64::python-3.8.1-h5fd99cc_8_cpython
++defaults/win-64::setuptools-58.0.4-py38haa95532_0
++defaults/win-64::sqlite-3.37.2-h2bbff1b_0
++defaults/win-64::vc-14.2-h21ff451_1
++defaults/win-64::vs2015_runtime-14.27.29016-h5e58377_2
++defaults/win-64::wincertstore-0.2-py38haa95532_2
+# update specs: ['python=3.8.1']

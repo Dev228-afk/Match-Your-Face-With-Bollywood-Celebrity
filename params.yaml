@@ -1,0 +1,5 @@
+base:
+  data_path: data
+  BASE_MODEL: resnet50
+  include_top: False
+  pooling: avg
