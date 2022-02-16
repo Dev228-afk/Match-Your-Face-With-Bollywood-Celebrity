@@ -3,6 +3,7 @@ tensorflow==2.3.1
 keras==2.4.3
 keras-vggface==0.6       
 keras_applications==1.0.8
+opencv-python==4.5.3.56
 pyyaml
 tqdm
 scikit-learn
